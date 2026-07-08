@@ -1,9 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Arjun%20Anucodex21&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20AI%20Engineer%20in%20the%20making&descAlignY=55&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Anucodex21&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20AI%20Engineer%20in%20the%20making&descAlignY=55&descSize=20" width="100%"/>
+
+<img src="https://github.com/Anucodex21.png" width="130" style="border-radius:50%;" />
+
+<br/>
 
 <a href="https://github.com/Anucodex21">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=650&lines=Hi+there%2C+I'm+Arjun+%F0%9F%91%8B;BCA+Sem+2+Student+%40+MJPRU;Building+Typing+HUB+%7C+GPT+from+Scratch;Full+Stack+%2B+AI+Engineer+in+progress;Python+%7C+Flask+%7C+React+%7C+LangChain" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=650&lines=Hey%2C+I'm+Anucodex21+%F0%9F%91%8B;Full+Stack+%2B+AI+Engineer+in+progress;Building+Typing+HUB+%7C+GPT+from+Scratch;Python+%7C+Flask+%7C+React+%7C+LangChain;Always+shipping+something+new" alt="Typing SVG" />
 </a>
 
 </div>
@@ -12,13 +16,13 @@
 
 ### 🧑‍💻 About Me
 
-- 🎓 BCA Semester 2 student at **MJPRU** (Shri Siddhi Vinayak Group of Institution, Bareilly)
 - 🚀 On a mission to become a **Full Stack AI Engineer** — frontend, backend, and AI all in one stack
 - 🛠️ Currently building **Typing HUB** — a Flask-based voice-to-text app with a sci-fi HUD interface
-- 🧠 Built a **GPT-from-scratch** transformer implementation for learning how LLMs actually work
-- 📊 Extended a CLI student database into a full **Flask + SQLite marks calculator**
+- 🧠 Built **GPT-from-scratch**, a transformer implementation for understanding how LLMs actually work under the hood
+- 📊 Built a full-stack **Student Marks Calculator** (Flask + SQLite), evolved from a simple CLI tool
 - 🗺️ Following a 7-phase roadmap covering RAG, agents, embeddings, and LangChain
-- 💬 So ja paji 😴
+- ⚡ Believer in learning by building — every project here started as "let me just try it"
+- 🌙 Currently exploring: AI agents, RAG pipelines, and system design basics
 
 ---
 
@@ -57,7 +61,29 @@
 
 ---
 
-### 📌 Featured Projects
+### 🎬 Project Showcases
+
+<div align="center">
+
+**🛰️ Typing HUB — Voice-to-Text with a Sci-Fi HUD**
+
+<img src="./assets/typinghub-demo.svg" width="100%"/>
+
+<sub>Flask backend · PyAutoGUI typing injection · live voice waveform · animated HUD iris core</sub>
+
+<br/><br/>
+
+**📊 Student Marks Calculator — Flask + SQLite Dashboard**
+
+<img src="./assets/marks-calculator-demo.svg" width="100%"/>
+
+<sub>CLI → full-stack evolution · SQLite backend · live-calculated averages & performance charts</sub>
+
+</div>
+
+---
+
+### 📌 Featured Repos
 
 <div align="center">
 
@@ -88,15 +114,31 @@
 
 ---
 
+### 🏆 Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Anucodex21&theme=tokyonight&no-frame=true&row=1&column=6" />
+
+</div>
+
+---
+
 ### 🐍 Contribution Snake
 
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Anucodex21/Anucodex21/output/github-contribution-grid-snake.svg" alt="snake animation" width="100%"/>
 
-<sub>⚙️ Snake animates automatically once a GitHub Action is set up (workflow included below).</sub>
+<sub>⚙️ Powered by a GitHub Action — see setup below</sub>
 
 </div>
+
+---
+
+### 💭 Random Fact
+
+> "The best way to learn AI is to build the thing everyone says is 'too advanced for beginners.'"
 
 ---
 
@@ -106,6 +148,7 @@
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/anuxiiiiiii?igsh=bzV1d2Q4Y3psY3ht)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aesthetizz-zonx-79874541b)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anucodex21)
 
 </div>
 
