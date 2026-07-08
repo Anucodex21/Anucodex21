@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-circle.svg" width="160" />
+<img src="https://github.com/Anucodex21.png" width="150" />
 
 <br/>
 
