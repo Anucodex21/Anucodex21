@@ -10,8 +10,6 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=650&lines=Hey%2C+I'm+Anucodex21+%F0%9F%91%8B;Full+Stack+%2B+AI+Engineer+in+progress;Building+Typing+HUB+%7C+GPT+from+Scratch;Python+%7C+Flask+%7C+React+%7C+LangChain+%7C+Docker;Always+shipping+something+new" alt="Typing SVG" />
 </a>
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400"/>
-
 </div>
 
 ---
