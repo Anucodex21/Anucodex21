@@ -1,14 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Anucodex21&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20AI%20Engineer%20in%20the%20making&descAlignY=55&descSize=20" width="100%"/>
-
-<img src="https://github.com/Anucodex21.png" width="130" style="border-radius:50%;" />
+<img src="./assets/profile-circle.svg" width="160" />
 
 <br/>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Anucodex21&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20AI%20Engineer%20in%20the%20making&descAlignY=55&descSize=20" width="100%"/>
+
 <a href="https://github.com/Anucodex21">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=650&lines=Hey%2C+I'm+Anucodex21+%F0%9F%91%8B;Full+Stack+%2B+AI+Engineer+in+progress;Building+Typing+HUB+%7C+GPT+from+Scratch;Python+%7C+Flask+%7C+React+%7C+LangChain;Always+shipping+something+new" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=650&lines=Hey%2C+I'm+Anucodex21+%F0%9F%91%8B;Full+Stack+%2B+AI+Engineer+in+progress;Building+Typing+HUB+%7C+GPT+from+Scratch;Python+%7C+Flask+%7C+React+%7C+LangChain+%7C+Docker;Always+shipping+something+new" alt="Typing SVG" />
 </a>
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400"/>
 
 </div>
 
@@ -22,7 +24,7 @@
 - 📊 Built a full-stack **Student Marks Calculator** (Flask + SQLite), evolved from a simple CLI tool
 - 🗺️ Following a 7-phase roadmap covering RAG, agents, embeddings, and LangChain
 - ⚡ Believer in learning by building — every project here started as "let me just try it"
-- 🌙 Currently exploring: AI agents, RAG pipelines, and system design basics
+- 🌙 Currently exploring: AI agents, RAG pipelines, LLM fine-tuning, and containerized deployments
 
 ---
 
@@ -30,18 +32,43 @@
 
 <div align="center">
 
+**Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Frontend & Backend**
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+
+**AI / ML / LLM**
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![OpenAI](https://img.shields.io/badge/OpenAI%20API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LLM](https://img.shields.io/badge/LLMs-8A2BE2?style=for-the-badge&logo=brain&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+**Databases & DevOps**
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+**Tools**
 ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
 
@@ -56,7 +83,7 @@
 [~] Phase 4  →  Deep Learning Foundations (GPT from scratch)
 [ ] Phase 5  →  RAG & Embeddings
 [ ] Phase 6  →  Agents & LangChain
-[ ] Phase 7  →  Full Stack AI Deployment & Production Systems
+[ ] Phase 7  →  Full Stack AI Deployment (Docker, Kubernetes, CI/CD)
 ```
 
 ---
@@ -114,6 +141,16 @@
 
 ---
 
+### 📈 Activity Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anucodex21&theme=react-dark&hide_border=true&area=true" width="100%"/>
+
+</div>
+
+---
+
 ### 🏆 Trophies
 
 <div align="center">
@@ -130,7 +167,7 @@
 
 <img src="https://raw.githubusercontent.com/Anucodex21/Anucodex21/output/github-contribution-grid-snake.svg" alt="snake animation" width="100%"/>
 
-<sub>⚙️ Powered by a GitHub Action — see setup below</sub>
+<sub>⚙️ Powered by a GitHub Action — see setup instructions below</sub>
 
 </div>
 
