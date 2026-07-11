@@ -104,6 +104,14 @@
 
 <sub>CLI → full-stack evolution · SQLite backend · live-calculated averages & performance charts</sub>
 
+<br/><br/>
+
+**🌐 Nexus — Next-Gen Project Core**
+
+<img src="./assets/nexus-demo.svg" width="100%"/>
+
+<sub>Core system architecture · modular design · built for scale</sub>
+
 </div>
 
 ---
@@ -112,18 +120,32 @@
 
 <div align="center">
 
-<a href="https://github.com/Anucodex21/Typing-HUB-1.0-repo-pros-work">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anucodex21&repo=Typing-HUB-1.0-repo-pros-work&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Anucodex21/student-marks-calculator">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anucodex21&repo=student-marks-calculator&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Anucodex21/Leet-solve-repo">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anucodex21&repo=Leet-solve-repo&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://https://github.com/Anucodex21/Nexus">
- <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anucodex21&repo=Nexus&theme=tokyonight&hide_border=true" />
-</a>
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/Anucodex21/Typing-HUB-1.0-repo-pros-work">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anucodex21&repo=Typing-HUB-1.0-repo-pros-work&theme=tokyonight&hide_border=true" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/Anucodex21/student-marks-calculator">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anucodex21&repo=student-marks-calculator&theme=tokyonight&hide_border=true" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/Anucodex21/Leet-solve-repo">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anucodex21&repo=Leet-solve-repo&theme=tokyonight&hide_border=true" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/Anucodex21/Nexus">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anucodex21&repo=Nexus&theme=tokyonight&hide_border=true" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
