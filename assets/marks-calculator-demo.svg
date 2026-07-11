@@ -1,0 +1,93 @@
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1720"/>
+      <stop offset="100%" stop-color="#05080c"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#00c2ff"/>
+      <stop offset="100%" stop-color="#7cffb2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="700" height="380" rx="14" fill="url(#bg2)"/>
+
+  <!-- window top bar -->
+  <rect x="0" y="0" width="700" height="34" rx="14" fill="#141d27"/>
+  <circle cx="22" cy="17" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="17" r="6" fill="#27c93f"/>
+  <text x="350" y="22" text-anchor="middle" fill="#8fa3b3" font-family="Consolas, monospace" font-size="13">student-marks-calculator — Flask + SQLite</text>
+
+  <!-- sidebar -->
+  <rect x="0" y="34" width="150" height="346" fill="#0c141c"/>
+  <text x="20" y="65" fill="#4fd1c5" font-family="Consolas, monospace" font-size="13" font-weight="bold">DASHBOARD</text>
+  <text x="20" y="95" fill="#7d93a3" font-family="Consolas, monospace" font-size="12">Students</text>
+  <text x="20" y="120" fill="#7d93a3" font-family="Consolas, monospace" font-size="12">Add Marks</text>
+  <text x="20" y="145" fill="#e8feff" font-family="Consolas, monospace" font-size="12">Reports</text>
+  <rect x="12" y="133" width="4" height="16" fill="#00f7ff"/>
+
+  <!-- table -->
+  <g font-family="Consolas, monospace" font-size="12">
+    <text x="175" y="65" fill="#8fa3b3">Name</text>
+    <text x="330" y="65" fill="#8fa3b3">Subject</text>
+    <text x="470" y="65" fill="#8fa3b3">Marks</text>
+    <line x1="170" y1="75" x2="680" y2="75" stroke="#1f2b36"/>
+
+    <text x="175" y="98" fill="#dbe9f0">Rahul</text>
+    <text x="330" y="98" fill="#dbe9f0">DBMS</text>
+    <text x="470" y="98" fill="#7cffb2">78</text>
+
+    <text x="175" y="128" fill="#dbe9f0">Priya</text>
+    <text x="330" y="128" fill="#dbe9f0">Data Structures</text>
+    <text x="470" y="128" fill="#7cffb2">85</text>
+
+    <text x="175" y="158" fill="#dbe9f0">Aman</text>
+    <text x="330" y="158" fill="#dbe9f0">Digital Electronics</text>
+    <text x="470" y="158" fill="#7cffb2">67</text>
+
+    <text x="175" y="188" fill="#dbe9f0">
+      Anu
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.4s" fill="freeze"/>
+    </text>
+    <text x="330" y="188" fill="#dbe9f0">
+      Mathematics II
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.6s" fill="freeze"/>
+    </text>
+    <text x="470" y="188" fill="#00f7ff" font-weight="bold">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>
+      <tspan>92</tspan>
+    </text>
+  </g>
+
+  <!-- calculating badge -->
+  <rect x="470" y="205" width="140" height="24" rx="12" fill="#0f2b2b" stroke="#00f7ff" stroke-width="1">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="540" y="221" text-anchor="middle" fill="#7cffb2" font-family="Consolas, monospace" font-size="11">CALCULATING...</text>
+
+  <!-- bar chart -->
+  <g>
+    <text x="175" y="255" fill="#8fa3b3" font-family="Consolas, monospace" font-size="12">Average Performance</text>
+    <line x1="175" y1="345" x2="640" y2="345" stroke="#1f2b36"/>
+
+    <rect x="190" y="345" width="34" fill="url(#barGrad)"><animate attributeName="height" values="0;58" dur="1s" begin="0.2s" fill="freeze"/><animate attributeName="y" values="345;287" dur="1s" begin="0.2s" fill="freeze"/></rect>
+    <rect x="250" y="345" width="34" fill="url(#barGrad)"><animate attributeName="height" values="0;70" dur="1s" begin="0.4s" fill="freeze"/><animate attributeName="y" values="345;275" dur="1s" begin="0.4s" fill="freeze"/></rect>
+    <rect x="310" y="345" width="34" fill="url(#barGrad)"><animate attributeName="height" values="0;44" dur="1s" begin="0.6s" fill="freeze"/><animate attributeName="y" values="345;301" dur="1s" begin="0.6s" fill="freeze"/></rect>
+    <rect x="370" y="345" width="34" fill="url(#barGrad)"><animate attributeName="height" values="0;80" dur="1s" begin="0.8s" fill="freeze"/><animate attributeName="y" values="345;265" dur="1s" begin="0.8s" fill="freeze"/></rect>
+    <rect x="430" y="345" width="34" fill="url(#barGrad)"><animate attributeName="height" values="0;62" dur="1s" begin="1s" fill="freeze"/><animate attributeName="y" values="345;283" dur="1s" begin="1s" fill="freeze"/></rect>
+
+    <text x="207" y="360" text-anchor="middle" fill="#7d93a3" font-family="Consolas, monospace" font-size="10">DBMS</text>
+    <text x="267" y="360" text-anchor="middle" fill="#7d93a3" font-family="Consolas, monospace" font-size="10">DS</text>
+    <text x="327" y="360" text-anchor="middle" fill="#7d93a3" font-family="Consolas, monospace" font-size="10">DE</text>
+    <text x="387" y="360" text-anchor="middle" fill="#7d93a3" font-family="Consolas, monospace" font-size="10">Math</text>
+    <text x="447" y="360" text-anchor="middle" fill="#7d93a3" font-family="Consolas, monospace" font-size="10">BOM</text>
+  </g>
+
+  <!-- total counter -->
+  <text x="620" y="260" text-anchor="end" fill="#8fa3b3" font-family="Consolas, monospace" font-size="12">Total Avg</text>
+  <text x="620" y="285" text-anchor="end" fill="#00f7ff" font-family="Consolas, monospace" font-size="22" font-weight="bold">
+    <tspan>76.4%</tspan>
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.2s" fill="freeze"/>
+  </text>
+</svg>
