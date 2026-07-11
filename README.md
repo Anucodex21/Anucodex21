@@ -121,6 +121,9 @@
 <a href="https://github.com/Anucodex21/Leet-solve-repo">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anucodex21&repo=Leet-solve-repo&theme=tokyonight&hide_border=true" />
 </a>
+<a href="https://https://github.com/Anucodex21/Nexus">
+ <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anucodex21&repo=Nexus&theme=tokyonight&hide_border=true" />
+</a>
 
 </div>
 
