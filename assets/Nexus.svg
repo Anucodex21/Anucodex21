@@ -1,0 +1,72 @@
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#2fe0ff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#2fe0ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2fe0ff"/><stop offset="1" stop-color="#8b7bff"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2fe0ff" stop-opacity="0.9"/><stop offset="1" stop-color="#8b7bff" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <!-- void background -->
+  <rect width="700" height="380" fill="#060a12"/>
+  <rect width="700" height="380" fill="url(#glow)"/>
+
+  <!-- faint grid, matches app chrome -->
+  <g stroke="#1c2b40" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="50" x2="700" y2="50"/>
+    <line x1="0" y1="330" x2="700" y2="330"/>
+    <line x1="70" y1="0" x2="70" y2="380"/>
+    <line x1="630" y1="0" x2="630" y2="380"/>
+  </g>
+
+  <!-- nexus logo: three orbiting ellipses + pulsing core + traveler -->
+  <g transform="translate(350 150)">
+    <g>
+      <ellipse rx="80" ry="32" fill="none" stroke="url(#ring)" stroke-width="2">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="7s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <g transform="rotate(60)">
+      <ellipse rx="80" ry="32" fill="none" stroke="url(#ring)" stroke-width="2">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="10s" repeatCount="indefinite" additive="sum"/>
+      </ellipse>
+    </g>
+    <g transform="rotate(120)">
+      <ellipse rx="80" ry="32" fill="none" stroke="url(#ring)" stroke-width="2">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="13s" repeatCount="indefinite" additive="sum"/>
+      </ellipse>
+    </g>
+
+    <circle r="17.6" fill="url(#core)">
+      <animateTransform attributeName="transform" type="scale" values="1;1.22;1" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.75;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="8" fill="#2fe0ff">
+      <animateMotion path="M 80 0 A 80 32 0 1 1 -80 0 A 80 32 0 1 1 80 0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- NEXUS wordmark, letters fade in/out on loop -->
+  <g font-family="'Chakra Petch', sans-serif" font-weight="700" font-size="34" letter-spacing="10" fill="#d7e3ee" text-anchor="middle">
+    <text x="290" y="270">N<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0;0.06;0.7;0.76;1" dur="5s" repeatCount="indefinite"/></text>
+    <text x="325" y="270">E<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.04;0.10;0.7;0.76;1" dur="5s" repeatCount="indefinite"/></text>
+    <text x="360" y="270">X<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.14;0.7;0.76;1" dur="5s" repeatCount="indefinite"/></text>
+    <text x="395" y="270">U<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.12;0.18;0.7;0.76;1" dur="5s" repeatCount="indefinite"/></text>
+    <text x="430" y="270">S<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.16;0.22;0.7;0.76;1" dur="5s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- subtitle, matches real app's intro-sub text -->
+  <text x="350" y="298" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="3" fill="#5c7690">
+    INITIALIZING SESSION
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.24;0.28;0.7;0.76;1" dur="5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- status bar -->
+  <text x="20" y="358" fill="#12586b" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="1">STATUS: ONLINE</text>
+  <text x="680" y="358" text-anchor="end" fill="#12586b" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="1">MODE: AI CHAT</text>
+</svg>
