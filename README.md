@@ -17,7 +17,7 @@
 ### 🧑‍💻 About Me
 
 - 🚀 On a mission to become a **Full Stack AI Engineer** — frontend, backend, and AI all in one stack
-- 🛠️ Currently building **Typing HUB** — a Flask-based voice-to-text app with a sci-fi HUD interface
+- 🛠️ Currently building **Nexus-Model** — A AI-Agent Nexus User can use 20+ Models in Nexus 
 - 🧠 Built **GPT-from-scratch**, a transformer implementation for understanding how LLMs actually work under the hood
 - 📊 Built a full-stack **Student Marks Calculator** (Flask + SQLite), evolved from a simple CLI tool
 - 🗺️ Following a 7-phase roadmap covering RAG, agents, embeddings, and LangChain
@@ -69,20 +69,6 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
-
----
-
-### 🗺️ Full Stack AI Engineer Roadmap
-
-```text
-[✓] Phase 1  →  Python & Core Programming Foundations
-[✓] Phase 2  →  Frontend Basics (HTML, CSS, JS)
-[~] Phase 3  →  Backend & Databases (Flask, SQLite, APIs)
-[~] Phase 4  →  Deep Learning Foundations (GPT from scratch)
-[ ] Phase 5  →  RAG & Embeddings
-[ ] Phase 6  →  Agents & LangChain
-[ ] Phase 7  →  Full Stack AI Deployment (Docker, Kubernetes, CI/CD)
-```
 
 ---
 
