@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Rocket Animation
 
 on:
   schedule:
@@ -14,17 +14,40 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: Anucodex21
-   outputs: |
-  dist/github-contribution-grid-snake.svg?color_snake=#000000,#0d1b2a,#111111&color_dots=#0a0a12,#0d1b2a,#142850,#1b3a6b,#00f7ff&color_empty=#05050a
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
 
-      - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Checkout generator repo
+        uses: actions/checkout@v4
         with:
-          target_branch: output
-          build_dir: dist
+          repository: Sushmitadasari/Sushmitadasari
+          path: generator
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: generator
+
+      - name: Generate rocket animation
+        run: node generate.mjs
+        working-directory: generator
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: Anucodex21
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+
+      - name: Copy rocket SVGs into profile repo
+        run: |
+          cp generator/dark.svg ./rocket-dark.svg 2>/dev/null || cp generator/dist/dark.svg ./rocket-dark.svg
+          cp generator/light.svg ./rocket-light.svg 2>/dev/null || cp generator/dist/light.svg ./rocket-light.svg
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rocket-dark.svg rocket-light.svg
+          git diff --staged --quiet || git commit -m "Update rocket animation"
+          git push
