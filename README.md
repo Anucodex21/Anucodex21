@@ -92,7 +92,7 @@
 
 <br/><br/>
 
-**🌐 Nexus — Next-Gen Project Core**
+**🌐 Nexus — Gen Project Core**
 
 <img src="./assets/nexus-demo.svg" width="100%"/>
 
