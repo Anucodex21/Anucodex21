@@ -170,15 +170,15 @@
 
 ---
 
-### 🐍 Contribution Snake
+### 🐍 Contribution Rocket
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Anucodex21/Anucodex21/output/github-contribution-grid-snake.svg" alt="snake animation" width="100%"/>
-
-<sub>⚙️ Powered by a GitHub Action — see setup instructions below</sub>
-
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anucodex21/Anucodex21/main/rocket-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anucodex21/Anucodex21/main/rocket-light.svg">
+    <img alt="GitHub Rocket Animation" src="https://raw.githubusercontent.com/Anucodex21/Anucodex21/main/rocket-dark.svg" width="100%">
+  </picture>
+</p>
 
 ---
 
