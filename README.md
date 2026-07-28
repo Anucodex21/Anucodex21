@@ -172,15 +172,9 @@
 ### Profile card 
 <img src="./arjun_github_profile.svg" alt="Arjun's Profile" width="100%" />
 
-### 🐍 Contribution Rocket
+ ## 🐍 My Contribution Snake
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anucodex21/Anucodex21/main/rocket-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anucodex21/Anucodex21/main/rocket-light.svg">
-    <img alt="GitHub Rocket Animation" src="https://raw.githubusercontent.com/Anucodex21/Anucodex21/main/rocket-dark.svg" width="100%">
-  </picture>
-</p>
+![Snake Animation](https://raw.githubusercontent.com/Anucodex21/Anucodex21/output/github-contribution-grid-snake-dark.svg)
 
 ---
 
