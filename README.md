@@ -184,6 +184,46 @@
 
 ---
 
+## 🚀 Featured Projects
+
+### 🧠 [Nexus](https://github.com/Anucodex21/Nexus)
+A FastAPI multi-LLM backend supporting **Groq, Gemini, HuggingFace, NVIDIA NIM, OpenAI, and Anthropic** in one unified API.
+- 🔐 JWT authentication
+- 💾 SQLite-backed conversation history
+- 📚 RAG via ChromaDB with per-user isolation
+- 🤖 ReAct coding agent
+- 🎨 Sci-fi HUD frontend
+
+`Python` `FastAPI` `ChromaDB` `JWT` `RAG` `Multi-LLM`
+
+---
+
+### 🤖 NEXUS-GPT v2
+A from-scratch GPT transformer built in pure PyTorch, across a 10-phase roadmap: real data pipelines, RoPE embeddings, weight tying, flash attention, a BPE tokenizer with FIM support, perplexity/diversity evaluation, and a served React UI.
+
+`Python` `PyTorch` `Transformers` `React`
+
+---
+
+### 🔧 DataForge
+A Python automation agent for Excel, SQL, and public APIs — featuring a self-registering capability registry, runtime intent scoring, an audit ledger, and five real LLM backends (Claude, GPT, Grok, Perplexity, Kimi K2).
+
+`Python` `Automation` `LLM Routing`
+
+---
+
+### 🎙️ Jarvis
+A multi-phase Python voice assistant with a native PySide6 Windows GUI, Groq LLM routing, wake word detection, neural TTS (edge-tts), system tray integration, and rolling conversation memory.
+
+`Python` `PySide6` `Groq` `edge-tts`
+
+---
+
+### ⌨️ Typing HUB
+A Flask-based voice-to-text app with a sci-fi HUD web interface — captures mic input and types recognized speech directly into the focused window.
+
+`Python` `Flask` `Speech Recognition`
+
 ### 💭 Random Fact
 
 > "The best way to learn AI is to build the thing everyone says is 'too advanced for beginners.'"
