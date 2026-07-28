@@ -169,6 +169,8 @@
 </div>
 
 ---
+### Profile card 
+<img src="./arjun_github_profile.svg" alt="Arjun's Profile" width="100%" />
 
 ### 🐍 Contribution Rocket
 
